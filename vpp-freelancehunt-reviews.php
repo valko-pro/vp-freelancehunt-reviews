@@ -4,12 +4,12 @@
  * @wordpress-plugin
  * Plugin Name:       VP+ Freelancehunt Reviews
  * Plugin URI:        http://valko.pro/plugins/vpp-freelancehunt-reviews
- * Description:       
+ * Description:       This plugin displayed your reviews from freelancehunt.com
  * Version:           1.0
  * Author:            Oleg Valko
  * Author URI:        http://valko.pro/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * License:           GPLv3
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       vppfr
  * Domain Path:       /languages
  */
