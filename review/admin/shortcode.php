@@ -4,8 +4,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 add_action('wp_enqueue_scripts', 'vppfr_enqueue_scripts');
 
 function vppfr_enqueue_scripts() {
-  wp_enqueue_style( 'vppfr_style', plugins_url('../assets/css/style.css', __FILE__ ));
-  wp_enqueue_script( 'vppfr_js', plugins_url('../assets/js/scripts.js', __FILE__ ), '', '', true );
+  wp_enqueue_style( 'vppfr_style', plugins_url('vpp-freelancehunt-reviews/assets/css/style.css'));
+  wp_enqueue_script( 'vppfr_js', plugins_url('vpp-freelancehunt-reviews/assets/js/scripts.js'), '', '', true );
 };
 
 add_shortcode('freelancehunt_reviews', 'vppfr_shortcode');
