@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
-if( is_plugin_active( 'vpp-freelancehunt-api/vpp-freelancehunt-api.php' ) ){
+if( is_plugin_active( 'vp-freelancehunt-api/vpp-freelancehunt-api.php' ) ){
 
   add_action( 'plugins_loaded', 'vppfr_load_plugin_textdomain' );
 

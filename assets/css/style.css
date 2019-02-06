@@ -38,6 +38,8 @@
 
 .vppfr_navigation {
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .vppfr_navigation button {
